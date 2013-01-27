@@ -1,0 +1,17 @@
+﻿Compilación iniciada a las 1/27/2013 4:11:45 PM.
+     1>Proyecto "C:\Users\Samuel\Desktop\Proyectos C++\Cambiador de realmlist\Cambiador de realmlist\Cambiador de realmlist.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Main.cpp
+         Main.cpp
+     1>Main.cpp(59): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : vea la declaración de 'fopen'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Samuel\Desktop\Proyectos C++\Cambiador de realmlist\Release\Cambiador de realmlist.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\Cambiadorderealmlist.Main.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Samuel\Desktop\Proyectos C++\Cambiador de realmlist\Release\Cambiador de realmlist.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\Log.obj
+         Release\Main.obj
+         "Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         Cambiador de realmlist.vcxproj -> C:\Users\Samuel\Desktop\Proyectos C++\Cambiador de realmlist\Release\Cambiador de realmlist.exe
+     1>Compilación del proyecto terminada "C:\Users\Samuel\Desktop\Proyectos C++\Cambiador de realmlist\Cambiador de realmlist\Cambiador de realmlist.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:04.71
