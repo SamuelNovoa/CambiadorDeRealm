@@ -32,21 +32,30 @@ int main()
 
 void Cambiadorderealmlist::Main::CambiarRealm(int opcion)
 {
-    if (opcion == 1)
+    std:ifstream ruta ("ruta.conf")
+    
+    if (ruta)
     {
-        sLog.outError("Realm 1 no implementado");
-    }
-    if (opcion == 2)
-    {
-        sLog.outError("Realm 2 no implementado");
-    }
-    if (opcion == 3)
-    {
-        sLog.outError("Realm 3 no implementado");
-    }
-    if (opcion == 4)
-    {
+        if (opcion == 1)
+        {
+            sLog.outError("Realm 1 no implementado");
+        }
+        if (opcion == 2)
+        {
+            sLog.outError("Realm 2 no implementado");
+        }
+        if (opcion == 3)
+        {
+            sLog.outError("Realm 3 no implementado");
+        }
+        if (opcion == 4)
+        {
         sLog.outError("Realm 4 no implementado");
+        }
+    }
+    else if (!ruta)
+    {
+        sLog.OutError("No se ha elegido ninguna ruta para World Of Warcraft")
     }
 }
 
@@ -73,7 +82,7 @@ void Cambiadorderealmlist::Main::Jugar()
     else if (ruta)
     {
         
-        sLog.outError("no implementado");
+        
     }
 
 }
