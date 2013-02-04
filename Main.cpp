@@ -32,7 +32,7 @@ int main()
 
 void Cambiadorderealmlist::Main::CambiarRealm(int opcion)
 {
-    std:ifstream ruta ("ruta.conf")
+    std::ifstream ruta ("ruta.conf");
     
     if (ruta)
     {
@@ -55,7 +55,7 @@ void Cambiadorderealmlist::Main::CambiarRealm(int opcion)
     }
     else if (!ruta)
     {
-        sLog.OutError("No se ha elegido ninguna ruta para World Of Warcraft")
+        sLog.outError("No se ha elegido ninguna ruta para World Of Warcraft");
     }
 }
 
@@ -81,8 +81,7 @@ void Cambiadorderealmlist::Main::Jugar()
     }
     else if (ruta)
     {
-        
-        
+        sLog.outError("Funcion implementada"); 
     }
 
 }
