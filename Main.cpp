@@ -67,12 +67,20 @@ void Cambiadorderealmlist::Main::Jugar()
         FILE* newFile;
         newFile = fopen("ruta.conf", "a");
         Stream^ Ruta;
+        
+        sLog.outError("Crea bien el archivo");
 
         OpenFileDialog ^ string_ruta = gcnew OpenFileDialog();
+        
+        sLog.outError("Abre correctamente el menu de dialogo");
+        
         if (string_ruta->ShowDialog() == ::DialogResult::OK )
         {
+            sLog.outError("Da correctamente el resultado OK");
+            
             if ( (Ruta = string_ruta->OpenFile()) != nullptr )
             {
+                sLog.outError ("Comprueba correctamente si el archivo esta vacio o tiene algo");
                 fprintf (newFile,"%s", string_ruta);
                 Ruta->Close();
             }
